@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
+body{
+    font-family: "M PLUS 1 Code", monospace;
+    overflow-x: hidden;
+    background-color: #e5e5e571;
+    z-index: 5;
+  }
+.main{
+    min-height: 120vh;
+    width: 100%;
+    /* background-color: black; */
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cata{
+    height: 58vh;
+    width: 40vw;
+    position: relative;
+    display: flex;
+}
+.cata .k{
+    height: 45vh;
+    width: 40vw;
+    position: absolute;
+    top: 1px;
+}
+.cata .con{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    bottom: 10px;
+    flex-direction: column;
+}
+.cata .con p{
+   padding-top:10px;
+   border-top: 2px solid black;
+}
+.button{
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+    width: 70px;
+    font-size: 15px;
+}
